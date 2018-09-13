@@ -4,7 +4,6 @@ pipeline {
     stage('Build') {
       steps {
         sh 'echo "Building1.."'
-        sleep 10
       }
     }
     stage('Test') {
